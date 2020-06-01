@@ -18,6 +18,7 @@ package org.springframework.beans;
 
 import java.beans.PropertyDescriptor;
 
+
 /**
  * The central interface of Spring's low-level JavaBeans infrastructure.
  *

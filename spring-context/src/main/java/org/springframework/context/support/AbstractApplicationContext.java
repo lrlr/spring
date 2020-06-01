@@ -1374,7 +1374,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	 * @throws IllegalStateException if already initialized and multiple refresh
 	 * attempts are not supported
 	 */
-	protected abstract void refreshBeanFactory() throws BeansException, IllegalStateException;
+	protected abstract void  refreshBeanFactory() throws BeansException, IllegalStateException;
 
 	/**
 	 * Subclasses must implement this method to release their internal bean factory.
@@ -1397,7 +1397,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	 * @see #closeBeanFactory()
 	 */
 	@Override
-	public abstract ConfigurableListableBeanFactory getBeanFactory() throws IllegalStateException;
+	public abstract ConfigurableListableBeanFactory  getBeanFactory() throws IllegalStateException;
 
 
 	/**
